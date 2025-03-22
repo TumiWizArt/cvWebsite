@@ -3,48 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="additionalFiles/Home/Home.css">
+    <title>Tumiso-home</title>
+    <link rel="stylesheet" href="Additionals/Home/Home.css">
 </head>
 <body>
+    <div class="container" onscroll="redirectFunction()">
+        <div id="navbar">
+            <div class="name"><a href="index.html">Tumiso Manamela</a></div>
+            <ul id="links">
+                <a class="homeL" href="">Home</a>
+                <a class="portfolioL" href="Additionals/Portfolio/Portfolio.html">Portfolio</a>
+                <a class="aboutL"  href="Additionals/About/About.html">About</a>
+                <a class="contactL"  href="Additionals/Contact/Contact.html">Contact</a>
+            </ul>
+        </div>
     
-    <div class="container">
-        <div class="header">
-            <div class="fullName">Tumiso Manamela</div>
-            
-        </div>
-
-        <div class="links">
-            <div class="cornerItems">
-               <ul>
-                <a class="homeL" href="javascript:void(0)">Home</a>
-                <a class="portfolioL" href="additionalFiles/Portfolio/Portfolio.html">Portfolio</a>
-                <a class="aboutL" href="additionalFiles/About/About.html">About</a>
-                <a class="contactL" href="additionalFiles/Contact/Contact.html">Contact</a>
-               </ul>
-            </div>
-        </div>
-
-
-        <div class="intro">
-            <div class="text">
-                <p class="name">Tumiso Manamela</p>
-                <p class="para">
-                    I am a third year student at Belgium Campus ITversity studying towards a Bachelor’s degree in Computing and majoring in Software Engineering.
-                </p>
-                <a href="additionalFiles/Tumiso_Manamela_CV(2024).pdf" download="" id="CVDownload">Download CV</a>
+        <div class="main" id="main">
+            <div id="mainP">
+                <div class="TM">
+                    <p>Tumiso Manamela</p>
                 </div>
-           </div>
-        <div class="canva">
-            <div id="c2"></div>
-            <div id="c1"></div>
-            <div id="c3"></div>
+                <div class="TMP">
+                    <p>I am a student at Belgium Campus ITversity studying towards a Bachelor's degree in Computing and majoring in Software Engineering.</p>
+                </div>
+                <a href="Additionals/Home/Tumiso ManamelaCV.pdf" download="" id="CVDownload">Download CV</a>
+             </div>
+            
+            <div id="maintext">
+                <div class="canva">
+                    <div id="c2"></div>
+                    <div id="c1"></div>
+                    <div id="c3"></div>
+                </div>
+                <img src="Additionals/Home/20240508_014534(blue3).png" alt="">
+            </div>
+            
+    
         </div>
-        <img src="additionalFiles/Home/20240508_014534(blue3).png" alt="">
     </div>
 
-
-
-    <script src="Home/Home.js"></script>
+    <script src="Additionals/Home/Home.js"></script>
+    
 </body>
 </html>
